@@ -1,0 +1,7 @@
+a =float(input("высота"))
+b = float(input("длина"))
+d = float(input("диаметр"))
+if d+2<=min(a,b): #d=2<=a and d+2<=b
+   print ("ДА")
+else:
+   print("НЕТ")
